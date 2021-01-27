@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #1f1f1f;
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  max-width: 1000px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+a {
+  color: #fca311;
+  text-decoration: none;
+}
+
+p {
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  padding: 10px 0;
+  font-size: 28px;
+  color: #1f1f1f;
+}
+
+.main {
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  color: #e5e5e5;
+  text-align: center;
+  background-color: #14213d;
+}
+
+.personal-info__header {
+  text-align: center;
+}
+
+.personal-info__wrapper {
+  display: flex;
+  font-size: 24px;
+}
+
+.personal-info__photo {
+  width: 200px;
+  margin-right: 100px;
+}
+
+.personal-info__text {
+  padding-top: 20px;
+}
+
+.objective__header {
+  text-align: center;
+}
+
+.education__header {
+  text-align: center;
+}
+
+.english__header {
+  text-align: center;
+}
