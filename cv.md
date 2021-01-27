@@ -4,7 +4,7 @@
 
 ### Contacts:
 
-[Telegram](https://t.me/pucpucpuc)
+- [**Telegram**](https://t.me/pucpucpuc)
 
 ## Objective
 
