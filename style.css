@@ -5,8 +5,9 @@
 
 body {
   min-height: 100vh;
-  background-color: #1f1f1f;
   font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  background-color: #1f1f1f;
 }
 
 section {
@@ -16,12 +17,8 @@ section {
 }
 
 a {
-  color: #fca311;
+  color: #e5e5e5;
   text-decoration: none;
-}
-
-p {
-  font-size: 24px;
 }
 
 h1 {
@@ -32,6 +29,10 @@ h2 {
   padding: 10px 0;
   font-size: 28px;
   color: #1f1f1f;
+}
+
+li {
+  margin-left: 40px;
 }
 
 .main {
@@ -60,17 +61,47 @@ h2 {
   font-size: 24px;
 }
 
+.personal-info__photo-wrapper {
+  margin-right: 100px;
+}
+
 .personal-info__photo {
   width: 200px;
-  margin-right: 100px;
+}
+
+.personal-info__photo-description {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .personal-info__text {
   padding-top: 20px;
 }
 
+.contacts__link {
+  color: #fca311;
+}
+
 .objective__header {
   text-align: center;
+}
+
+.code__example {
+  font-size: 20px;
+}
+
+.code__example > * {
+  display: block;
+  margin-left: 20px;
+}
+
+.code__tab_1 {
+  padding-left: 20px;
+}
+
+.code__tab_2 {
+  padding-left: 40px;
 }
 
 .education__header {
@@ -79,4 +110,13 @@ h2 {
 
 .english__header {
   text-align: center;
+}
+
+.footer {
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #e5e5e5;
+  text-align: center;
+  background-color: #14213d;
 }
