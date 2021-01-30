@@ -6,26 +6,31 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="./style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <title>CV</title>
 </head>
 <body>
+  <header class="header">
+    <h1>CV</h1>
+  </header>
   <main class="main">
-    <header class="header">
-      <h1>CV</h1>
-    </header>
     <section class="personal-info">
       <h2 class="personal-info__header">Personal Information</h2>
       <div class="personal-info__wrapper">
-        <img class="personal-info__photo" src="./boy.png" alt="MaFoto">
+        <figure class="personal-info__photo-wrapper">
+          <img class="personal-info__photo" src="./boy.png" alt="Photo of me">
+          <figcaption class="personal-info__photo-description">It's me.</figcaption>
+        </figure>
         <div class="personal-info__text">
           <p class="fullname">
             Denis Davydov
           </p>
-          <p class="contacts">
-            Contacts:
-            <a href="https://t.me/pucpucpuc">Telegram</a>
-          </p>
+          <p>Contacts:</p>
+          <ul class="contacts">
+            <li>
+              <a class="contacts__link" href="https://t.me/pucpucpuc">Telegram</a>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -35,6 +40,27 @@
         I'm typical character over 20 but under 30 years old without any special goals or skills.
         I haven't work experience in IT sector, but I am trying to study in Front End way.
       </p>
+    </section>
+    <section class="skills">
+      <h2 class="skills__header">Skills</h2>
+      <p>So, I</p>
+      <ul class="skills__list">
+        <li>haven't</li>
+        <li>any</li>
+        <li>skills</li>
+        <li>D: .</li>
+      </ul>
+    </section>
+    <section class="code">
+      <h2 class="code__header">Example of recent code</h2>
+      <code class="code__example">
+        <code>function partialUsingArguments(fn, ...args1) {</code>
+        <code class="code__tab_1">return function a(...args2) {</code>
+        <code class="code__tab_2">const args = args1.concat(args2);</code>
+        <code class="code__tab_2">return fn(...args);</code>
+        <code class="code__tab_1">};</code>
+        <code>}</code>
+      </code>
     </section>
     <section class="education">
       <h2 class="education__header">Education</h2>
@@ -49,5 +75,8 @@
       </p>
     </section>
   </main>
+  <footer class="footer">
+    <a href="https://github.com/macevoa" target="_blank">@macevoa</a>
+  </footer>
 </body>
 </html>
