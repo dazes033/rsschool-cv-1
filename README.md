@@ -1,1 +1,1 @@
-https://macevoa.github.io/rsschool-cv/cv
+https://macevoa.github.io/rsschool-cv/
