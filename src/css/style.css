@@ -3,10 +3,13 @@
   margin: 0;
 }
 
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+
 body {
   min-height: 100vh;
-  font-family: "Roboto", sans-serif;
-  font-size: 24px;
   background-color: #1f1f1f;
 }
 
@@ -16,18 +19,22 @@ section {
   margin: 0 auto;
 }
 
+section > * {
+  font-size: 2.4rem;
+}
+
 a {
   color: #e5e5e5;
   text-decoration: none;
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 3.6rem;
 }
 
 h2 {
   padding: 10px 0;
-  font-size: 28px;
+  font-size: 2.8rem;
   color: #1f1f1f;
 }
 
@@ -47,9 +54,18 @@ li {
   top: 0;
   left: 0;
   padding: 10px 0;
-  color: #e5e5e5;
   text-align: center;
   background-color: #14213d;
+}
+
+.header__title {
+  color: #e5e5e5;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.header__title:hover {
+  color: #fca311;
 }
 
 .personal-info__header {
@@ -58,7 +74,7 @@ li {
 
 .personal-info__wrapper {
   display: flex;
-  font-size: 24px;
+  font-size: 2.4rem;
 }
 
 .personal-info__photo-wrapper {
@@ -70,7 +86,7 @@ li {
 }
 
 .personal-info__photo-description {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 700;
   text-align: center;
 }
@@ -80,7 +96,16 @@ li {
 }
 
 .contacts__link {
+  color: #1f1f1f;
+  transition: color 0.3s ease-in-out;
+}
+
+.contacts__link:hover {
   color: #fca311;
+}
+
+.contacts__link:active {
+  color: #8b0000;
 }
 
 .objective__header {
@@ -88,7 +113,7 @@ li {
 }
 
 .code__example {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .code__example > * {
@@ -108,15 +133,31 @@ li {
   text-align: center;
 }
 
+.english {
+  padding-bottom: 20px;
+}
+
 .english__header {
   text-align: center;
 }
 
 .footer {
   padding: 10px 0;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 700;
-  color: #e5e5e5;
   text-align: center;
   background-color: #14213d;
+}
+
+.gh-link {
+  color: #e5e5e5;
+  transition: color 0.3s ease-in-out;
+}
+
+.gh-link:hover {
+  color: #fca311;
+}
+
+.gh-link:active {
+  color: #8b0000;
 }
